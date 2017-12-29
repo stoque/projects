@@ -1,1 +1,1 @@
-# A simple project to study Modern JavaScript
+# A simple project to study Node, Express and Modern JavaScript
