@@ -14,6 +14,9 @@
               this._render(data);
             })
         )
+        .catch(error => {
+          this.app.innerHTML = `<p class="error-message">Não foi possível carregar os projetos. :(</p>`
+        })
     }
 
     _render(data) {

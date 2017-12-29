@@ -92,3 +92,12 @@ body {
 .environments-list > .item > .link:hover {
   text-decoration: underline;
 }
+
+.error-message {
+  background: #e74c3c;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  margin: 20px 0;
+  padding: 10px 20px;
+}
