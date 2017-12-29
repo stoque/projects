@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: center;
+}
+
+.main-header {
+  margin: 20px 0 0;
+}
+
+.main-header > .title {
+  color: #bdc3c7;
+  text-transform: uppercase;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0 0;
+  max-width: 1000px;
+}
+
+.projects-wrapper > .project {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  margin: 0 10px 20px 10px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+
+.projects-wrapper > .project > .name {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+}
+
+.projects-wrapper > .project > .architecture {
+  color: gray;
+  font-size: 14px;
+}
+
+.projects-wrapper > .project > .type {
+  background: red;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 10px;
+  position: absolute;
+  right: -15px;
+  top: 6px;
+  transform: rotate(40deg);
+  width: 70px;
+}
+
+.projects-wrapper > .project > .type.-modal {
+  background: #2ecc71;
+}
+
+.projects-wrapper > .project > .type.-lp {
+  background: #9b59b6;
+}
+
+.environments-list {
+  font-size: 14px;
+  margin: 10px 0 0;
+}
+
+.environments-list > .item {
+  display: block;
+  list-style: none;
+}
+
+.environments-list > .item > .link {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.environments-list > .item > .link:hover {
+  text-decoration: underline;
+}

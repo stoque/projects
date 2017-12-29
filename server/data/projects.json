@@ -1,0 +1,63 @@
+[
+  {
+    "name": "My Project 1",
+    "type": "Modal",
+    "architecture": "Angular",
+    "environments": {
+      "dev": "http://github.com/stoque",
+      "hmg": "http://github.com/stoque",
+      "prod": "http://github.com/stoque"
+    }
+  },
+  {
+    "name": "My Project 2",
+    "type": "LP",
+    "architecture": "React",
+    "environments": {
+      "dev": "http://github.com/stoque",
+      "hmg": "http://github.com/stoque",
+      "prod": "http://github.com/stoque"
+    }
+  },
+  {
+    "name": "My Project 3",
+    "type": "LP",
+    "architecture": "Vue",
+    "environments": {
+      "dev": "http://github.com/stoque",
+      "hmg": "http://github.com/stoque",
+      "prod": "http://github.com/stoque"
+    }
+  },
+  {
+    "name": "My Project 1",
+    "type": "Modal",
+    "architecture": "Angular",
+    "environments": {
+      "dev": "http://github.com/stoque",
+      "hmg": "http://github.com/stoque",
+      "prod": "http://github.com/stoque"
+    }
+  },
+  {
+    "name": "My Project 2",
+    "type": "LP",
+    "architecture": "React",
+    "environments": {
+      "dev": "http://github.com/stoque",
+      "hmg": "http://github.com/stoque",
+      "prod": "http://github.com/stoque"
+    }
+  },
+  {
+    "name": "My Project 3",
+    "type": "LP",
+    "architecture": "Vue",
+    "environments": {
+      "dev": "http://github.com/stoque",
+      "hmg": "http://github.com/stoque",
+      "prod": "http://github.com/stoque"
+    }
+  }
+  
+]
