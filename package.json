@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start:api": "cd server && node app.js",
+    "start:api": "cd server && nodemon app.js",
     "start:front": "cd front/src && live-server"
   },
   "dependencies": {

@@ -12,7 +12,20 @@
   <header class="main-header">
     <h1 class="title">My Projects</h1>
   </header>
-  <main data-js="app" class="main"></main>
+  <main class="main">
+    <form data-js="form" class="form-register">
+      <input type="text" name="name" class="input" placeholder="Insira o nome" data-js="project-name" required>
+      <input type="text" name="type" class="input" placeholder="Insira o tipo" data-js="project-type" required>
+      <input type="text" name="architecture" class="input" placeholder="Insira a arquitetura" data-js="project-architecture" required>
+      <input type="text" name="dev" class="input" placeholder="Insira o ambiente de dev" data-js="project-dev" required>
+      <input type="text" name="hmg" class="input" placeholder="Insira o ambiente de hmg" data-js="project-hmg" required>
+      <input type="text" name="prod" class="input" placeholder="Insira o ambiente de prod" data-js="project-prod" required>
+      <button class="action">Cadastrar</button>
+    </form>
+    <div data-js="app">
+
+    </div>
+  </main>
   <script src="./assets/javascripts/main.js"></script>
 </body>
 </html>

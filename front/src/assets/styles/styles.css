@@ -15,6 +15,12 @@ body {
   justify-content: center;
 }
 
+main {
+  display: flex;
+  margin: 40px 0 0;
+  max-width: 1280px;
+}
+
 .main-header {
   margin: 20px 0 0;
 }
@@ -24,10 +30,33 @@ body {
   text-transform: uppercase;
 }
 
+.form-register {
+  margin: 0 40px 0 0;
+  width: 500px;
+}
+
+.form-register > .input {
+  display: block;
+  font-size: 13px;
+  height: 34px;
+  margin: 0 0 10px 0;
+  text-indent: 1ch;
+  width: 100%;
+}
+
+.form-register > .action {
+  background: #2ecc71;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  height: 34px;
+  width: 100%;
+}
+
 .projects-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin: 40px 0 0;
   max-width: 1000px;
 }
 
